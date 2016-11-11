@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Browser Page title</title>
+    <link href="~/Libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Libraries/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Stylesheets/all.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/Stylesheets/hotels-list.css">
+</head>
+<body>
+    <header>
+        <audio controls autoplay id="piratesAudio" class="fixed">
+            <source src="~/Content/media/HotelCali.mp3" type="audio/mpeg" id="piratesSong">
+            Your browser does not support the audio element.
+        </audio>
+        <h1 class="blogTitle">Hotel Advisor</h1>
+    </header>
+    <nav class="navbar navbar-default">
+        <!-- Navigation -->
+        <ul class="nav navbar-nav">
+            <li class="selected mynavbar"><a href="/">Home</a></li>
+            <li><a href="/Home/Login">Login</a></li>
+            <li><a href="/Fans/Index">About</a></li>
+        </ul>
+    </nav>
+    <section id="intro">
+        <!-- Introduction -->
+        <header>
+            <h2>Know where You are going...</h2>
+        </header>
+        <p>Here you'll find the best recommended Hotels for you'r needs</p>
+        <img src="~/Content/images/ibi800.png" alt="Shauli" />
+    </section>
+    <div>
+        <div class="mainContent">
+            @RenderBody()
+        </div>
+         
+</body>
+</html>

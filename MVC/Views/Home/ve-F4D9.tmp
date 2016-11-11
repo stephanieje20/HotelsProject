@@ -1,0 +1,9 @@
+﻿<link rel="stylesheet" href="~/Stylesheets/Login.css" type="text/css" media="screen" />
+<div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+        <div class="loginmodal-container">
+            <h1>Too Bad! Please Register again :)</h1><br>
+            <a href="/Critics/Create">Register</a>
+         </div>
+    </div>
+</div>

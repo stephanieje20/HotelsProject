@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MVC.Models.Hotel>
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="mainContent">
+    <section id="content">
+        <div id="search">
+            <h3>Hotels search</h3>
+            <form class="verticalForm">
+                <div>
+                    <span>
+                        <label>Name: </label><input type="text">
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <label>City: </label><select>
+                        @foreach (var item in Model)
+                        {
+                            <option value="@item.City">@Html.DisplayFor(modelItem => item.City)</option>
+                        }
+                        </select>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <label>State </label><select>
+                        @foreach (var item in Model)
+                        {
+                            <option value="@item.State">@Html.DisplayFor(modelItem => item.State)</option>
+                        }
+                        </select>
+                    </span>
+                </div>
+                <div>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+</div>
+@*<div id="Hotels">
+@foreach (var item in Model){
+    <section id="posts">
+        <article class="blogPost">
+            <header>   
+                <h2>@Html.DisplayFor(modelItem => item.Name) (Rating: @item.Rate)</h2>
+                <p>located in @Html.DisplayFor(modelItem => item.State), @Html.DisplayFor(modelItem => item.City)</p>
+            </header>
+            <div>
+                <p>@Html.DisplayFor(modelItem => item.Contents)</p>
+
+                @if (Html.DisplayFor(modelItem => item.Photo) != null)
+                {
+                    <img src="@Html.DisplayFor(modelItem => item.Photo)" />
+                }
+            </div>
+        </article>
+    </section>
+            }
+    <a href="~/Hotels/Create">
+        <input type="submit" value="Add a new Hotel" class="btn btn-default" />
+    </a>
+</div>*@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="page-header">
+            Search Results
+            <small>10 hotels founded</small>
+        </h1>
+        @foreach (var hotel in Model)
+        {
+        <!-- First Blog Post -->
+        <h2> @Html.ActionLink(@hotel.Name, "Details", new { id = hotel.ID })
+        </h2>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Located in @hotel.City, @hotel.State</p>
+        <hr>
+        <img class="img-responsive" src="~/Content/images/@hotel.Photo" alt="">
+        <hr>
+        <p>@hotel.Contents</p>
+        <hr>
+        }
+</div>
