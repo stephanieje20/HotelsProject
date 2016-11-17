@@ -47,13 +47,11 @@
                 foreach (var commentItem in item.Comments)
                 {
                     <article>
-                        <header>
-                            @Html.DisplayFor(modelItem => commentItem.Title) by <a href="#">@Html.DisplayFor(modelItem => commentItem.Name)</a>
-                        </header>
+                        <h1>@Html.DisplayFor(modelItem => commentItem.DateUpload)</h1>
                         <p>@Html.DisplayFor(modelItem => commentItem.Contents)</p>
                     </article>
                 }
             }
         </section>
     }
-    <a href="~/Posts/Create">Create A new Post</a>" 
+    <a>@Html.ActionLink(@Model.Name, "CreatePost", new { hotelid = Model.ID })Create A new Post</a>
