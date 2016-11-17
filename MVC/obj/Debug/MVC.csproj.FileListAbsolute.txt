@@ -259,6 +259,7 @@ C:\Users\סטפני\Downloads\אור_דניאל_206090573_סטפני_גין_2060
 C:\Users\סטפני\Downloads\אור_דניאל_206090573_סטפני_גין_206093270\MVC\obj\Debug\MVC.pdb
 C:\Users\סטפני\Downloads\אור_דניאל_206090573_סטפני_גין_206093270\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
 C:\Users\סטפני\Downloads\אור_דניאל_206090573_סטפני_גין_206093270\MVC\obj\Debug\MVC.Migrations.lal.resources
+<<<<<<< HEAD
 C:\git repos\HotelsProject\MVC\bin\ApplicationInsights.config
 C:\git repos\HotelsProject\MVC\bin\roslyn\csc.exe
 C:\git repos\HotelsProject\MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -319,3 +320,64 @@ C:\git repos\HotelsProject\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 C:\git repos\HotelsProject\MVC\obj\Debug\MVC.dll
 C:\git repos\HotelsProject\MVC\obj\Debug\MVC.pdb
 C:\git repos\HotelsProject\MVC\obj\Debug\MVC.Migrations.lalal.resources
+=======
+C:\gitRepo\HotelsProj\MVC\bin\ApplicationInsights.config
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\csc.exe
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\vbc.exe
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\VBCSCompiler.exe
+C:\gitRepo\HotelsProj\MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\gitRepo\HotelsProj\MVC\bin\MVC.dll.config
+C:\gitRepo\HotelsProj\MVC\bin\MVC.dll
+C:\gitRepo\HotelsProj\MVC\bin\MVC.pdb
+C:\gitRepo\HotelsProj\MVC\bin\EntityFramework.dll
+C:\gitRepo\HotelsProj\MVC\bin\EntityFramework.SqlServer.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.Web.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.ApplicationInsights.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Helpers.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Mvc.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Razor.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.Deployment.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.dll
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.Razor.dll
+C:\gitRepo\HotelsProj\MVC\bin\EntityFramework.xml
+C:\gitRepo\HotelsProj\MVC\bin\EntityFramework.SqlServer.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.Web.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.ApplicationInsights.xml
+C:\gitRepo\HotelsProj\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Razor.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.Deployment.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Webpages.Razor.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Helpers.xml
+C:\gitRepo\HotelsProj\MVC\bin\System.Web.Mvc.xml
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.InitialCreate.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.Migrate.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.InitialCreate1.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lala.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lala1.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lalala.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.la.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lal.resources
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.dll
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.pdb
+>>>>>>> fd968dd7b3bd4b806cf07c424ba70cb40bdacb95
