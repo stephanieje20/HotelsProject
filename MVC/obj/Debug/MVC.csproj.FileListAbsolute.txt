@@ -381,6 +381,7 @@ C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.dll
 C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.pdb
 >>>>>>> fd968dd7b3bd4b806cf07c424ba70cb40bdacb95
+<<<<<<< HEAD
 C:\gitRipo\HotelsProject\MVC\bin\ApplicationInsights.config
 C:\gitRipo\HotelsProject\MVC\bin\roslyn\csc.exe
 C:\gitRipo\HotelsProject\MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -441,3 +442,6 @@ C:\gitRipo\HotelsProject\MVC\obj\Debug\MVC.Migrations.lalal.resources
 C:\gitRipo\HotelsProject\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 C:\gitRipo\HotelsProject\MVC\obj\Debug\MVC.dll
 C:\gitRipo\HotelsProject\MVC\obj\Debug\MVC.pdb
+=======
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lalal.resources
+>>>>>>> 159ef6201e9371ba71f3adad1b319fb522fe5e43
