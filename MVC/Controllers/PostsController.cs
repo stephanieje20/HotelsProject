@@ -18,7 +18,7 @@ namespace MVC.Controllers
         // GET: Posts
         public ActionResult Index()
         {
-            var posts = db.Posts.Include(p => p.Hotel);
+            var posts = db.Posts.Include(p => p.Hotel).Include(p => p.User);
             return View(posts.ToList());
         }
 
@@ -41,6 +41,7 @@ namespace MVC.Controllers
         public ActionResult Create()
         {
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name");
+            ViewBag.UserID = new SelectList(db.Users, "ID", "FirstName");
             return View();
         }
 
@@ -49,7 +50,7 @@ namespace MVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Title,Name,WebSite,DateUpload,Contents,Photo,Video,HotelID")] Post post)
+        public ActionResult Create([Bind(Include = "ID,Title,DateUpload,Contents,Photo,Video,HotelID,UserID")] Post post)
         {
             if (ModelState.IsValid)
             {
@@ -59,6 +60,7 @@ namespace MVC.Controllers
             }
 
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name", post.HotelID);
+            ViewBag.UserID = new SelectList(db.Users, "ID", "FirstName", post.UserID);
             return View(post);
         }
 
@@ -75,6 +77,7 @@ namespace MVC.Controllers
                 return HttpNotFound();
             }
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name", post.HotelID);
+            ViewBag.UserID = new SelectList(db.Users, "ID", "FirstName", post.UserID);
             return View(post);
         }
 
@@ -83,7 +86,7 @@ namespace MVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Title,Name,WebSite,DateUpload,Contents,Photo,Video,HotelID")] Post post)
+        public ActionResult Edit([Bind(Include = "ID,Title,DateUpload,Contents,Photo,Video,HotelID,UserID")] Post post)
         {
             if (ModelState.IsValid)
             {
@@ -92,6 +95,7 @@ namespace MVC.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name", post.HotelID);
+            ViewBag.UserID = new SelectList(db.Users, "ID", "FirstName", post.UserID);
             return View(post);
         }
 

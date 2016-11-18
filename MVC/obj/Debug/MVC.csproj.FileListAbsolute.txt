@@ -381,3 +381,4 @@ C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.dll
 C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.pdb
 >>>>>>> fd968dd7b3bd4b806cf07c424ba70cb40bdacb95
+C:\gitRepo\HotelsProj\MVC\obj\Debug\MVC.Migrations.lalal.resources

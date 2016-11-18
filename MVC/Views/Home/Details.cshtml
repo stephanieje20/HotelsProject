@@ -54,4 +54,5 @@
             }
         </section>
     }
-    <a>@Html.ActionLink(@Model.Name, "CreatePost", new { hotelid = Model.ID })Create A new Post</a>
+    </div>
+    <a>@Html.ActionLink("Create A new Post", "CreatePost", new { hotelid = Model.ID })</a>

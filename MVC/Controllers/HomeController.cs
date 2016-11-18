@@ -50,6 +50,7 @@ namespace MVC.Controllers
         public ActionResult CreatePost(int? hotelId)
         {
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name", hotelId);
+            ViewBag.UserID = new SelectList(db.Users, "ID", "FirstName");
             return View();
         }
 
@@ -58,7 +59,7 @@ namespace MVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult CreatePost([Bind(Include = "ID,Title,DateUpload,Contents,Photo,Video,HotelID")] Post post)
+        public ActionResult CreatePost([Bind(Include = "ID,Title,DateUpload,Contents,Photo,Video,HotelID,UserID")] Post post)
         {
             post.DateUpload = DateTime.Now;
             if (ModelState.IsValid)
