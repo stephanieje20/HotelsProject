@@ -116,6 +116,14 @@ namespace MVC.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Login(int id)
+        {
+            User User = db.Users.Find(id);
+            db.Users.Remove(User);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
