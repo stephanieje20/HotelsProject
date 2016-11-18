@@ -46,8 +46,7 @@ namespace MVC.Controllers
             }
             return View(hotel);
         }
-<<<<<<< HEAD
-=======
+
         // GET: Posts/Create
         public ActionResult CreatePost(int? hotelId)
         {
@@ -74,6 +73,5 @@ namespace MVC.Controllers
             ViewBag.HotelID = new SelectList(db.Hotels, "ID", "Name", post.HotelID);
             return View(post);
         }
->>>>>>> 159ef6201e9371ba71f3adad1b319fb522fe5e43
     }
 }
